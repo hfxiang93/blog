@@ -266,19 +266,19 @@ new Vue({
 });
 
 /* modify */
-setTimeout(() => {
-    globalData.d = 'hi~';
-}, 1000);
+// setTimeout(() => {
+//    globalData.d = 'hi~';
+// }, 1000);
 
 Vue.prototype.globalData = globalData;
 
 /* 任意模板中 */
-<div>{{globalData.d}}</div>
+<div>globalData.d</div>
 ```
 
-上述代码在全局有一个globalData，它被传入一个Vue对象的data中，之后在任意Vue模板中对该变量进行展示，因为此时globalData已经在Vue的prototype上了所以直接通过this.prototype访问，也就是在模板中的{{prototype.d}}。此时，setTimeout在1s之后将globalData.d进行修改，我们发现模板中的globalData.d发生了变化。其实上述部分就是Vuex依赖Vue核心实现数据的“响应式化”。
+上述代码在全局有一个globalData，它被传入一个Vue对象的data中，之后在任意Vue模板中对该变量进行展示，因为此时globalData已经在Vue的prototype上了所以直接通过this.prototype访问，也就是在模板中的prototype.d。此时，setTimeout在1s之后将globalData.d进行修改，我们发现模板中的globalData.d发生了变化。其实上述部分就是Vuex依赖Vue核心实现数据的“响应式化”。
 
-不熟悉Vue.js响应式原理的同学可以通过笔者另一篇文章[响应式原理](https://github.com/answershuto/learnVue/blob/master/docs/%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86.MarkDown)了解Vue.js是如何进行数据双向绑定的。
+不熟悉Vue.js响应式原理的同学可以通过笔者另一篇文章[响应式原理]了解Vue.js是如何进行数据双向绑定的。
 
 接着来看代码。
 

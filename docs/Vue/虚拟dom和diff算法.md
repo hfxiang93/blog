@@ -16,7 +16,7 @@ sticky:
 
 Vue就使用了这样的抽象节点VNode，它是对真实DOM的一层抽象，而不依赖某个平台，它可以是浏览器平台，也可以是weex，甚至是node平台也可以对这样一棵抽象DOM树进行创建删除修改等操作，这也为前后端同构提供了可能。
 
-具体VNode的细节可以看[VNode节点](https://github.com/answershuto/learnVue/blob/master/docs/VNode%E8%8A%82%E7%82%B9.MarkDown)。
+具体VNode的细节可以看[VNode节点]。
 
 ## 修改视图
 

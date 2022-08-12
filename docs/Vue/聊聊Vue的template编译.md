@@ -175,7 +175,7 @@ export default class VNode {
 }
 ```
 
-关于VNode的一些细节，请参考[VNode节点](https://github.com/answershuto/learnVue/blob/master/docs/VNode%E8%8A%82%E7%82%B9.MarkDown)。
+关于VNode的一些细节，请参考[VNode节点]。
 
 ## createCompiler
 

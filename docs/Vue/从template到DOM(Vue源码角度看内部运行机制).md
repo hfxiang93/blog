@@ -118,7 +118,7 @@ _init主要做了这两件事：
 
 2.$mount组件。
 
-在生命钩子beforeCreate与created之间会初始化state，在此过程中，会依次初始化props、methods、data、computed与watch，这也就是Vue.js对options中的数据进行“响应式化”（即双向绑定）的过程。对于Vue.js响应式原理不了解的同学可以先看一下笔者的另一片文章[《Vue.js响应式原理》](https://github.com/answershuto/learnVue/blob/master/docs/%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86.MarkDown)。
+在生命钩子beforeCreate与created之间会初始化state，在此过程中，会依次初始化props、methods、data、computed与watch，这也就是Vue.js对options中的数据进行“响应式化”（即双向绑定）的过程。对于Vue.js响应式原理不了解的同学可以先看一下笔者的另一片文章[《Vue.js响应式原理》]。
 
 ```javascript
 /*初始化props、methods、data、computed与watch*/
@@ -196,7 +196,7 @@ function initData (vm: Component) {
 }
 ```
 
-observe会通过defineReactive对data中的对象进行双向绑定，最终通过Object.defineProperty对对象设置setter以及getter的方法。getter的方法主要用来进行依赖收集，对于依赖收集不了解的同学可以参考笔者的另一篇文章[《依赖收集》](https://github.com/answershuto/learnVue/blob/master/docs/%E4%BE%9D%E8%B5%96%E6%94%B6%E9%9B%86.MarkDown)。setter方法会在对象被修改的时候触发（不存在添加属性的情况，添加属性请用Vue.set），这时候setter会通知闭包中的Dep，Dep中有一些订阅了这个对象改变的Watcher观察者对象，Dep会通知Watcher对象更新视图。
+observe会通过defineReactive对data中的对象进行双向绑定，最终通过Object.defineProperty对对象设置setter以及getter的方法。getter的方法主要用来进行依赖收集，对于依赖收集不了解的同学可以参考笔者的另一篇文章[《依赖收集》]。setter方法会在对象被修改的时候触发（不存在添加属性的情况，添加属性请用Vue.set），这时候setter会通知闭包中的Dep，Dep中有一些订阅了这个对象改变的Watcher观察者对象，Dep会通知Watcher对象更新视图。
 
 如果是修改一个数组的成员，该成员是一个对象，那只需要递归对数组的成员进行双向绑定即可。但这时候出现了一个问题，如果我们进行pop、push等操作的时候，push进去的对象根本没有进行过双向绑定，更别说pop了，那么我们如何监听数组的这些变化呢？
 Vue.js提供的方法是重写push、pop、shift、unshift、splice、sort、reverse这七个[数组方法](http://v1-cn.vuejs.org/guide/list.html#变异方法)。修改数组原型方法的代码可以参考[observer/array.js](https://github.com/vuejs/vue/blob/dev/src/core/observer/array.js)以及[observer/index.js](https://github.com/vuejs/vue/blob/dev/src/core/observer/index.js#L45)。
@@ -327,7 +327,7 @@ export const arrayMethods = Object.create(arrayProto)
 但是修改了数组的原生方法以后我们还是没法像原生数组一样直接通过数组的下标或者设置length来修改数组，可以通过[Vue.set以及splice方法](https://cn.vuejs.org/v2/guide/list.html#%E6%9B%BF%E6%8D%A2%E6%95%B0%E7%BB%84)。
 
 
-对于更具体的讲解数据双向绑定以及Dep、Watcher的实现可以参考笔者的文章[《从源码角度再看数据绑定》](https://github.com/answershuto/learnVue/blob/master/docs/%E4%BB%8E%E6%BA%90%E7%A0%81%E8%A7%92%E5%BA%A6%E5%86%8D%E7%9C%8B%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A.MarkDown)。
+对于更具体的讲解数据双向绑定以及Dep、Watcher的实现可以参考笔者的文章[《从源码角度再看数据绑定》]。
 
 ## template编译
 
@@ -376,12 +376,12 @@ optimize的主要作用是标记static静态节点，这是Vue在编译过程中
 
 generate是将AST语法树转化成render funtion字符串的过程，得到结果是render的字符串以及staticRenderFns字符串。
 
-具体的template编译实现请参考[《聊聊Vue.js的template编译》](https://github.com/answershuto/learnVue/blob/master/docs/%E8%81%8A%E8%81%8AVue%E7%9A%84template%E7%BC%96%E8%AF%91.MarkDown)。
+具体的template编译实现请参考[《聊聊Vue.js的template编译》]。
 
 
 ## Watcher到视图
 
-Watcher对象会通过调用updateComponent方法来达到更新视图的目的。这里提一下，其实Watcher并不是实时更新视图的，Vue.js默认会将Watcher对象存在一个队列中，在下一个tick时更新异步更新视图，完成了性能优化。关于nextTick感兴趣的小伙伴可以参考[《Vue.js异步更新DOM策略及nextTick》](https://github.com/answershuto/learnVue/blob/master/docs/Vue.js%E5%BC%82%E6%AD%A5%E6%9B%B4%E6%96%B0DOM%E7%AD%96%E7%95%A5%E5%8F%8AnextTick.MarkDown)。
+Watcher对象会通过调用updateComponent方法来达到更新视图的目的。这里提一下，其实Watcher并不是实时更新视图的，Vue.js默认会将Watcher对象存在一个队列中，在下一个tick时更新异步更新视图，完成了性能优化。关于nextTick感兴趣的小伙伴可以参考[《Vue.js异步更新DOM策略及nextTick》]。
 
 ```javascript
 updateComponent = () => {
@@ -549,7 +549,7 @@ isOnce: 是否有v-once指令
 </div>
 ```
 
-更多操作VNode的方法，请参考[《VNode节点》](https://github.com/answershuto/learnVue/blob/master/docs/VNode%E8%8A%82%E7%82%B9.MarkDown)。
+更多操作VNode的方法，请参考[《VNode节点》]。
 
 ## patch
 
@@ -763,7 +763,7 @@ newEndIdx => newEndVnode
 
 ![img](https://i.loli.net/2017/08/29/59a4f389b98cb.png)
 
-更详细的diff实现参考笔者的文章[VirtualDOM与diff(Vue.js实现)](https://github.com/answershuto/learnVue/blob/master/docs/VirtualDOM%E4%B8%8Ediff(Vue%E5%AE%9E%E7%8E%B0).MarkDown)。
+更详细的diff实现参考笔者的文章[VirtualDOM与diff(Vue.js实现)]。
 
 ## 映射到真实DOM
 

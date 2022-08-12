@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10cae56-3807-405a-9d4e-524c50dc8552" name="默认的" comment="feat: :sparkles: 添加模型">
-      <change afterPath="$PROJECT_DIR$/blogs/category1/2022/20220812.md" afterDir="false" />
+    <list default="true" id="b10cae56-3807-405a-9d4e-524c50dc8552" name="默认的" comment="feat: :sparkles: 添加vue相关源码解析">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/public/assets/js/bodyClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/public/assets/js/bodyClick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Vue/Vuex源码解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vue/Vuex源码解析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Vue/Vue组件间通信.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vue/Vue组件间通信.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Vue/从template到DOM(Vue源码角度看内部运行机制).md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vue/从template到DOM(Vue源码角度看内部运行机制).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Vue/依赖收集.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vue/依赖收集.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Vue/聊聊Vue的template编译.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vue/聊聊Vue的template编译.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Vue/聊聊keep-alive组件的使用及其实现原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vue/聊聊keep-alive组件的使用及其实现原理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Vue/虚拟dom和diff算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vue/虚拟dom和diff算法.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +84,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.deployed" />
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +101,7 @@
       <updated>1660216298663</updated>
       <workItem from="1660216299689" duration="1050000" />
       <workItem from="1660265174182" duration="8090000" />
-      <workItem from="1660273425360" duration="7040000" />
+      <workItem from="1660273425360" duration="10033000" />
     </task>
     <task id="LOCAL-00001" summary="feat: :sparkles: 添加模型">
       <created>1660274038100</created>
@@ -111,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660274659568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: :sparkles: 添加vue相关源码解析">
+      <created>1660286572540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660286572540</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,45 +133,50 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: :sparkles: 添加模型" />
     <MESSAGE value="feat: :sparkles: 移动端不显示模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: :sparkles: 移动端不显示模型" />
+    <MESSAGE value="feat: :sparkles: 添加vue相关源码解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: :sparkles: 添加vue相关源码解析" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="649" y="19" key="CommitChangelistDialog2" timestamp="1660275572326">
+    <state x="649" y="19" key="CommitChangelistDialog2" timestamp="1660288477371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="649" y="19" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1660275572326" />
-    <state x="184" y="85" key="DiffContextDialog" timestamp="1660274656426">
+    <state x="649" y="19" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1660288477371" />
+    <state x="184" y="85" key="DiffContextDialog" timestamp="1660288252309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660274656426" />
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1660285722731">
+    <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660288252309" />
+    <state width="1899" height="340" key="GridCell.Tab.0.bottom" timestamp="1660289205203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660285722731" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1660285722731">
+    <state width="1899" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660289205203" />
+    <state width="1899" height="340" key="GridCell.Tab.0.center" timestamp="1660289205202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660285722731" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1660285722731">
+    <state width="1899" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660289205202" />
+    <state width="1899" height="340" key="GridCell.Tab.0.left" timestamp="1660289205202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660285722731" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1660285722731">
+    <state width="1899" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660289205202" />
+    <state width="1899" height="340" key="GridCell.Tab.0.right" timestamp="1660289205203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660285722731" />
-    <state x="760" y="138" key="RollbackChangesDialog" timestamp="1660267249215">
+    <state width="1899" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660289205203" />
+    <state x="760" y="138" key="RollbackChangesDialog" timestamp="1660288266087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="138" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660267249215" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1660274986822">
+    <state x="760" y="138" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660288266087" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1660286656070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1660274986822" />
-    <state x="699" y="207" width="522" height="674" key="find.popup" timestamp="1660274723657">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1660286656070" />
+    <state x="780" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1660286577450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="699" y="207" width="522" height="674" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660274723657" />
+    <state x="780" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1660286577450" />
+    <state x="699" y="207" width="522" height="674" key="find.popup" timestamp="1660289198636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="207" width="522" height="674" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660289198636" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1660274284415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
