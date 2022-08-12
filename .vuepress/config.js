@@ -13,7 +13,7 @@ module.exports = {
       "link",
       {
         "rel": "icon",
-        "href": "https://www.zpzpup.com/assets/image/favicon.ico"
+        "href": "https://hfxiang93.github.io/blog/favicon.ico"
       }
     ],
     [
@@ -28,8 +28,8 @@ module.exports = {
   "theme": "jabinblog",
   "themeConfig": {
     "mode": 'dark',
-    "noFoundPageByTencent": false,
-    "logo": 'https://www.zpzpup.com/assets/image/avatar.png',
+    "noFoundPageByTencent": true,
+    "logo": 'https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/32fde3cb1777414fb992b56957ba3037~tplv-k3u1fbpfcp-watermark.image',
     "vssueConfig": {
       "platform": 'github',
       "owner": 'hfxiang93',
@@ -53,7 +53,7 @@ module.exports = {
         "icon": "reco-document",
         "items": [
           {
-            "text": "七杂八杂",
+            "text": "常用知识",
             "link": "/docs/jottings/mobile"
           },
           {
@@ -65,8 +65,8 @@ module.exports = {
             "link": "/docs/nuxt/introduction"
           },
           {
-            "text": "吃吃吃",
-            "link": "/docs/delicacys/无油捞汁粉丝"
+            "text": "运维",
+            "link": "/docs/yunwei/前端CICD"
           }
         ]
       },
@@ -166,7 +166,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "xianghaifeng",
-    "authorAvatar": "https://www.zpzpup.com/assets/image/avatar.png",
+    "authorAvatar": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/32fde3cb1777414fb992b56957ba3037~tplv-k3u1fbpfcp-watermark.image",
     "record": "",
     "startYear": "2018"
   },
@@ -223,10 +223,10 @@ module.exports = {
     [
       "dynamic-title",
       {
-        showIcon: "https://www.zpzpup.com/assets/image/favicon.ico",
-        showText: "欢迎回来 O(∩_∩)O~",
-        hideIcon: "https://www.zpzpup.com/assets/image/favicon.ico",
-        hideText: "休息一会~",
+        showIcon: "https://hfxiang93.github.io/blog/favicon.ico",
+        showText: "欢迎回来",
+        hideIcon: "https://hfxiang93.github.io/blog/favicon.ico",
+        hideText: "休息一会",
         recoverTime: 2000
       }
     ],

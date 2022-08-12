@@ -64,9 +64,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.deployed" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660216298663</updated>
       <workItem from="1660216299689" duration="1050000" />
-      <workItem from="1660265174182" duration="5144000" />
+      <workItem from="1660265174182" duration="7481000" />
     </task>
     <servers />
   </component>
@@ -87,29 +87,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1660270314110">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1660272716569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660270314110" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1660270314110">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660272716569" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1660272716568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660270314110" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1660270314110">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660272716568" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1660272716568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660270314110" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1660270314110">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660272716568" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1660272716569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660270314110" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660272716569" />
     <state x="760" y="138" key="RollbackChangesDialog" timestamp="1660267249215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="760" y="138" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660267249215" />
-    <state x="699" y="207" width="522" height="626" key="find.popup" timestamp="1660217100946">
+    <state x="699" y="207" width="522" height="674" key="find.popup" timestamp="1660272593149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="699" y="207" width="522" height="626" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660217100946" />
+    <state x="699" y="207" width="522" height="674" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660272593149" />
   </component>
 </project>
