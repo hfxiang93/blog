@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10cae56-3807-405a-9d4e-524c50dc8552" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/styles/palette.styl" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/styles/palette.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="b10cae56-3807-405a-9d4e-524c50dc8552" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +31,27 @@
       <recent name="E:\code-github\vue\pengBlog\blog\.vuepress\public" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.deployed">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deployed" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deployed" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -50,6 +64,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deployed" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -63,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660216298663</updated>
       <workItem from="1660216299689" duration="1050000" />
-      <workItem from="1660265174182" duration="3000000" />
+      <workItem from="1660265174182" duration="5144000" />
     </task>
     <servers />
   </component>
@@ -71,22 +87,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1660267443839">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1660270314110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660267443839" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1660267443839">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660270314110" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1660270314110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660267443839" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1660267443839">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660270314110" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1660270314110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660267443839" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1660267443839">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660270314110" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1660270314110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660267443839" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660270314110" />
     <state x="760" y="138" key="RollbackChangesDialog" timestamp="1660267249215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -33,9 +33,9 @@ module.exports = {
     "vssueConfig": {
       "platform": 'github',
       "owner": 'hfxiang93',
-      "repo": 'my-blog',
-      "clientId": 'dcb896f05cac3ffbc730',
-      "clientSecret": '762c767e66ce18b4de5260c69b33c5ef6aa8f489',
+      "repo": 'blog',
+      "clientId": 'c7239d518c6a16a559ba',
+      "clientSecret": '6edcdf291558511c1fe1aa32f637a198781a3cd5',
     },
     "nav": [
       {
