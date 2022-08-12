@@ -1,5 +1,5 @@
 ---
-title: vue内部运行机制
+title: Vue内部运行机制
 date: 2022-5-16
 categories:
  VUE
