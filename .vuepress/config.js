@@ -237,7 +237,7 @@ module.exports = {
         live2d: {
           // 是否启用(关闭请设置为false)(default: true)
           enable: true,
-          // 模型名称(default: hibiki)
+          // 模型名称(default: hibiki / koharu)
           model: 'koharu',
           display: {
             position: "left", // 显示位置：left/right(default: 'right')
@@ -247,7 +247,7 @@ module.exports = {
             vOffset: 0, //  垂直偏移(default: 0)
           },
           mobile: {
-            show: true // 是否在移动设备上显示(default: false)
+            show: false // 是否在移动设备上显示(default: false)
           },
           react: {
             opacity: 1 // 模型透明度(default: 0.8)
