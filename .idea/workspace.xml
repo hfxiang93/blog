@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10cae56-3807-405a-9d4e-524c50dc8552" name="默认的" comment="" />
+    <list default="true" id="b10cae56-3807-405a-9d4e-524c50dc8552" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -22,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.vuepress/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -31,12 +36,22 @@
       <recent name="E:\code-github\vue\pengBlog\blog\.vuepress\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deployed">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -66,6 +81,7 @@
       <list>
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.deployed" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -79,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660216298663</updated>
       <workItem from="1660216299689" duration="1050000" />
-      <workItem from="1660265174182" duration="7481000" />
+      <workItem from="1660265174182" duration="8090000" />
+      <workItem from="1660273425360" duration="410000" />
     </task>
     <servers />
   </component>
@@ -87,29 +104,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1660272716569">
+    <state x="649" y="19" key="CommitChangelistDialog2" timestamp="1660273594474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660272716569" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1660272716568">
+    <state x="649" y="19" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1660273594474" />
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1660273344252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660272716568" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1660272716568">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660273344252" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1660273344251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660272716568" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1660272716569">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660273344251" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1660273344251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660272716569" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660273344251" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1660273344251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660273344251" />
     <state x="760" y="138" key="RollbackChangesDialog" timestamp="1660267249215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="760" y="138" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660267249215" />
-    <state x="699" y="207" width="522" height="674" key="find.popup" timestamp="1660272593149">
+    <state x="699" y="207" width="522" height="674" key="find.popup" timestamp="1660273777337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="699" y="207" width="522" height="674" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660272593149" />
+    <state x="699" y="207" width="522" height="674" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660273777337" />
   </component>
 </project>

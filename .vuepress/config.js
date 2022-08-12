@@ -156,10 +156,10 @@ module.exports = {
         "link": "https://juejin.cn/user/4230576475219085"
       },
       {
-        "title": "午后南杂",
-        "desc": "一款简洁而优雅的 vuepress 博客 & 文档 主题。",
+        "title": "B站",
+        "desc": "学习的好地方",
         "email": "无",
-        "link": "https://vuepress-theme-reco.recoluan.com/"
+        "link": "https://bilibili.com/"
       }
     ],
     "search": true,
@@ -247,7 +247,7 @@ module.exports = {
             vOffset: 0, //  垂直偏移(default: 0)
           },
           mobile: {
-            show: false // 是否在移动设备上显示(default: false)
+            show: true // 是否在移动设备上显示(default: false)
           },
           react: {
             opacity: 1 // 模型透明度(default: 0.8)
