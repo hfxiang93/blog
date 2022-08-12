@@ -49,7 +49,7 @@ module.exports = {
         "icon": "reco-date"
       },
       {
-        "text": "文章",
+        "text": "技术文章",
         "icon": "reco-document",
         "items": [
           {
@@ -57,8 +57,8 @@ module.exports = {
             "link": "/docs/jottings/mobile"
           },
           {
-            "text": "Vue3.0",
-            "link": "/docs/vue/ref"
+            "text": "Vue",
+            "link": "/docs/vue/虚拟dom和diff算法"
           },
           {
             "text": "Nuxt",
@@ -71,15 +71,9 @@ module.exports = {
         ]
       },
       {
-        "text": "联系我吧",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/hfxiang93",
-            "icon": "reco-github"
-          }
-        ]
+        "text": "GitHub",
+        "link": "https://github.com/hfxiang93",
+        "icon": "reco-github"
       }
     ],
     "sidebar": {
@@ -105,9 +99,22 @@ module.exports = {
       ],
       "/docs/Vue/": [
         {
-          "title": "Vue3.0",
-          "collapsable": false,
+          "title": "Vue",
+          "collapsable": true,
           "children": [
+              '虚拟dom和diff算法',
+              'VNode节点',
+              '异步更新DOM策略及nextTick',
+              'Vuex源码解析',
+              'Vue事件机制',
+              'Vue组件间通信',
+              '从template到DOM(Vue源码角度看内部运行机制)',
+              '从源码角度再看数据绑定',
+              '依赖收集',
+              '响应式原理',
+              '聊聊keep-alive组件的使用及其实现原理',
+              '聊聊Vue的template编译',
+              '说说element组件库broadcast与dispatch',
               'ref',
               'asyncComponent',
               'attribute',
