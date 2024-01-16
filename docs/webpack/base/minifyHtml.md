@@ -1,0 +1,12 @@
+---
+title: html 压缩
+date: 2023-01-16
+categories: Webpack
+sticky: true
+---
+
+# html 压缩
+
+默认生产模式已经开启了：html 压缩和 js 压缩
+
+不需要额外进行配置

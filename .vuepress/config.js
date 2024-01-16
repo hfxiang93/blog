@@ -29,7 +29,7 @@ module.exports = {
   "themeConfig": {
     "mode": 'dark',
     "noFoundPageByTencent": true,
-    "logo": 'https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/32fde3cb1777414fb992b56957ba3037~tplv-k3u1fbpfcp-watermark.image',
+    "logo": 'https://avatars.githubusercontent.com/u/48157293?v=4',
     "vssueConfig": {
       "platform": 'github',
       "owner": 'hfxiang93',
@@ -71,6 +71,28 @@ module.exports = {
         ]
       },
       {
+        "text": "webpack5",
+        "icon": "reco-document",
+        "items": [
+          {
+            "text": "基础配置",
+            "link": "/docs/webpack/base/"
+          },
+          {
+            "text": "高级优化",
+            "link": "/docs/webpack/senior/"
+          },
+          {
+            "text": "项目配置",
+            "link": "/docs/webpack/project/"
+          },
+          {
+            "text": "原理分析",
+            "link": "/docs/webpack/origin/"
+          }
+        ]
+      },
+      {
         "text": "GitHub",
         "link": "https://github.com/hfxiang93",
         "icon": "reco-github"
@@ -102,36 +124,36 @@ module.exports = {
           "title": "Vue",
           "collapsable": true,
           "children": [
-              '虚拟dom和diff算法',
-              'VNode节点',
-              '异步更新DOM策略及nextTick',
-              'Vuex源码解析',
-              'Vue事件机制',
-              'Vue组件间通信',
-              'Vue内部运行机制',
-              '从源码角度再看数据绑定',
-              '依赖收集',
-              '响应式原理',
-              '聊聊keep-alive组件的使用及其实现原理',
-              '聊聊Vue的template编译',
-              '说说element组件库broadcast与dispatch',
-              'ref',
-              'asyncComponent',
-              'attribute',
-              'directive',
-              'v-is',
-              'Data',
-              'event',
-              'filters',
-              'template',
-              'funComponent',
-              'API',
-              'renderFun',
-              'slot',
-              'animationClass',
-              'v-model',
-              'v-if&v-for',
-              'v-bind'
+            '虚拟dom和diff算法',
+            'VNode节点',
+            '异步更新DOM策略及nextTick',
+            'Vuex源码解析',
+            'Vue事件机制',
+            'Vue组件间通信',
+            'Vue内部运行机制',
+            '从源码角度再看数据绑定',
+            '依赖收集',
+            '响应式原理',
+            '聊聊keep-alive组件的使用及其实现原理',
+            '聊聊Vue的template编译',
+            '说说element组件库broadcast与dispatch',
+            'ref',
+            'asyncComponent',
+            'attribute',
+            'directive',
+            'v-is',
+            'Data',
+            'event',
+            'filters',
+            'template',
+            'funComponent',
+            'API',
+            'renderFun',
+            'slot',
+            'animationClass',
+            'v-model',
+            'v-if&v-for',
+            'v-bind'
           ]
         }
       ],
@@ -140,9 +162,61 @@ module.exports = {
           "title": "Nuxt",
           "collapsable": false,
           "children": [
-              'introduction',
-              'asyncData',
-              'context'
+            'introduction',
+            'asyncData',
+            'context'
+          ]
+        }
+      ],
+      "/docs/webpack/base/": [
+        {
+          "title": "基础配置",
+          "collapsable": false,
+          "children": [
+            "",
+            "base",
+            "config",
+            "development",
+            "css",
+            "image",
+            "output",
+            "clean",
+            "font",
+            "other",
+            "javascript",
+            "html",
+            "server",
+            "production",
+            "optimizeCss",
+            "minifyHtml",
+            "summary",
+          ]
+        }
+      ],
+      "/docs/webpack/senior/": [
+        {
+          "title": "高级优化",
+          "collapsable": false,
+          "children": [
+            "", "enhanceExperience", "liftingSpeed", "reduceVolume", "optimizePerformance", "summary"
+          ]
+        }
+      ],
+      "/docs/webpack/project/": [
+        {
+          "title": "项目配置",
+          "collapsable": false,
+          "children": [
+            "", "react-cli", "vue-cli", "summary"
+          ]
+        }
+      ],
+      "/docs/webpack/origin/": [
+        {
+          "title": "原理分析",
+          "collapsable": false,
+          "children": [
+            "", "loader", "plugin", "summary"
           ]
         }
       ]
@@ -159,7 +233,7 @@ module.exports = {
         "title": "掘金",
         "desc": "精诚所至，晶石为开",
         "email": "850442777@qq.com",
-        "logo": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/32fde3cb1777414fb992b56957ba3037~tplv-k3u1fbpfcp-watermark.image",
+        "logo": "https://avatars.githubusercontent.com/u/48157293?v=4",
         "link": "https://juejin.cn/user/4230576475219085"
       },
       {
@@ -173,7 +247,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "xianghaifeng",
-    "authorAvatar": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/32fde3cb1777414fb992b56957ba3037~tplv-k3u1fbpfcp-watermark.image",
+    "authorAvatar": "https://avatars.githubusercontent.com/u/48157293?v=4",
     "record": "",
     "startYear": "2018"
   },
