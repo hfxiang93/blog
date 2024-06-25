@@ -27,7 +27,7 @@ module.exports = {
   ],
   "theme": "jabinblog",
   "themeConfig": {
-    "mode": 'dark',
+    "mode": 'auto',
     "noFoundPageByTencent": true,
     "logo": 'https://avatars.githubusercontent.com/u/48157293?v=4',
     "vssueConfig": {
@@ -57,6 +57,10 @@ module.exports = {
             "link": "/docs/jottings/mobile"
           },
           {
+            "text": "js基础",
+            "link": "/docs/jsBase/防抖节流"
+          },
+          {
             "text": "Vue",
             "link": "/docs/vue/虚拟dom和diff算法"
           },
@@ -65,9 +69,9 @@ module.exports = {
             "link": "/docs/nuxt/introduction"
           },
           {
-            "text": "运维",
+            "text": "前端工程化",
             "link": "/docs/yunwei/前端CICD"
-          }
+          },
         ]
       },
       {
@@ -107,7 +111,7 @@ module.exports = {
         "DOM",
         "BOM",
         "particles",
-        // "genealogy",
+        "screen",
         "carousel",
         "whirligig",
         "filter",
@@ -118,6 +122,30 @@ module.exports = {
         "loading",
         "shadow",
         "flexbox"
+      ],
+      "/docs/jsBase/": [
+        {
+          "title": "js基础",
+          "collapsable": true,
+          "children": [
+            '防抖节流',
+            '柯里化',
+            'call和apply和bind',
+            '拖拽类'
+          ]
+        }
+      ],
+      "/docs/yunwei/": [
+        {
+          "title": "前端工程化",
+          "collapsable": true,
+          "children": [
+            '前端CICD',
+            'npm',
+            'vite',
+            '微前端',
+          ]
+        }
       ],
       "/docs/Vue/": [
         {
