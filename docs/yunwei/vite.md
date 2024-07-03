@@ -12,6 +12,8 @@ categories: 工程化
 
 3.weppack 生态非常庞大，有很多插件，vite 比较新，生态不如 webpack
 
+4.webpack 是先把所有的资源打包之后再发送给浏览器，vite 是把需要用到的资源先发送给浏览器，然后再根据浏览器请求的资源进行打包，这样就实现了按需加载
+
 ## 小提示
 
 vite 第一次构建的时候稍微慢一点，但也比 webpack 快，因为要做依赖预构建（使用 esbuild 将其他的依赖 commonjs 和 umd 的转成 esm）
